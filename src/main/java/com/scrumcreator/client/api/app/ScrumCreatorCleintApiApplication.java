@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.scrumcreator.admin.core.web"})
+@ComponentScan({"com.scrumcreator.client.api.controller"})
 public class ScrumCreatorCleintApiApplication {
 
 	public static void main(String[] args) {
